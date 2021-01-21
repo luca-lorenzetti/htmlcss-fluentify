@@ -138,8 +138,6 @@ li > a{
 }
 .three-colums-container p{
     padding-bottom: 3%;
-    color: grey;
-    font-weight: bold;
 }
 hr{
     border-color: #f2f2f2;
@@ -151,12 +149,36 @@ hr{
     width: 18%;
 }
 
-.col-left,
-.col-center,
-.col-right{
+.col-left-three-colums,
+.col-center-three-colums,
+.col-right-three-colums{
     width: calc(100%/3);
     float: left;
     padding: 0 25px;
-    
+}
+.two-colums-container{
+    width: 70%;
+    margin: 40px auto;
+}
 
+#two-colums h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.left-col-two-colums,
+.right-col-two-colums{
+    width: calc(100%/2);
+    float:left;
+    padding: 0px 60px
+}
+.right-col-two-colums *{
+    margin: 11px 0px;
+    font-weight: bold;;
+}
+.right-col-two-colums a{
+    font-size: 14px;
+}
+p{
+    color: grey;
+    font-weight: bold;
 }
