@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #0C325A;
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     position: relative;
     background-image: url("../img/background-header.png");
@@ -51,15 +51,23 @@ header {
 }
 
 .logo-navbar-left {
-    width: 60%;
+    width: 59%;
 }
 
 .logo-navbar-left * {
     display: inline-block;
 }
 
+.logo-navbar-left li:hover,
+.navbar-right li:first-child:hover {
+    background-color: rgba(0, 22, 46, 0.3);
+    border-radius: 12px;
+    box-shadow: 1px 2px 1px rgba(225, 225, 225, 0.2)
+}
+
 ul>li {
     display: inline-block;
+    text-align: center;
 }
 
 ul {
@@ -70,15 +78,19 @@ li>a {
     line-height: 25px;
     text-decoration: none;
     color: white;
-    margin-right: 20px;
+    padding: 2px 12px;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .navbar-right {
-    width: 39%;
+    width: 40%;
     text-align: right;
+}
+
+.navbar-right a {
+    margin: 0 12px
 }
 
 .title-button-row {
@@ -136,10 +148,9 @@ li>a {
 
 .three-colums-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
-    height: auto;
-
+    height: 60vh;
 }
 
 .three-colums-container img {
@@ -170,12 +181,22 @@ hr {
     width: 18%;
 }
 
+.col:hover {
+    border: 1px solid #7CBB02;
+    border-radius: 6px;
+    border-top: none;
+    box-shadow: 2px 5px 2px rgba(225, 225, 225, 0.4)
+}
+
 .col-left-three-colums,
 .col-center-three-colums,
 .col-right-three-colums {
     width: calc(100%/3);
     float: left;
-    padding: 0 25px;
+    padding: 0px 25px;
+    height: 100%;
+    border: 1px solid transparent;
+    border-top: none;
 }
 
 .two-colums-container {
@@ -210,18 +231,14 @@ p {
     font-weight: bold;
 }
 
-#second-grey-section {
-    height: 22vh;
-}
-
 .second-grey-section-container {
     width: 80%;
     line-height: 20vh;
-    vertical-align: middle;
 }
 
 .left-colum-s-grey,
 .right-colum-s-grey {
+
     float: left;
     padding: 0px 80px;
     position: relative;
@@ -244,18 +261,17 @@ p {
     position: absolute;
     padding-left: 60px;
     text-align: right;
+    height: 100%;
     width: 100%;
 }
 
 .right-colum-s-grey li {
-    padding: 2px 15px;
+    padding: 0px 15px;
     font-weight: bold;
-    float: left;
-    display: block;
 }
 
 .right-colum-s-grey a {
-    padding: 20px 10px
+    padding: 18px 10px
 }
 
 select {
@@ -276,7 +292,7 @@ option {
 
 #help {
     position: fixed;
+    left: 77.2%;
     bottom: 0;
-    left: 75%;
     padding: 8px 8px
 }
