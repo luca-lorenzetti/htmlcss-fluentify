@@ -5,3 +5,84 @@
     box-sizing: border-box;
 }
 /**********************/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #0C325A;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/background-header.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.container-header{
+    width: 80%;
+    height:  100%;
+    margin: 0 auto;
+}
+.container-header *{
+    display: inline-block;
+}
+.navbars-row{
+    height: 50%;
+    width: 100%;
+    padding-top: 1%;
+    
+}
+#logo{
+    margin-right: 5%;
+    vertical-align: bottom;
+}
+.logo-navbar-left{
+    width: 60%;
+}
+.logo-navbar-left *{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+li > a{
+    line-height: 25px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navbar-right{
+    width: 39%;
+    text-align: right;
+    
+}
+
+.title-button-row{
+    max-width: 30%;
+    color: white;
+}
+.title-button-row > a{
+    margin-top: 20px;
+    padding: 13px 25px;
+    font-size: 13px;
+}
+.button{
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px 25px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.green-button{
+    padding: 4px 20px;
+    background-color: #7CBB02;
+    border: 1px solid  #7CBB02;
+}
