@@ -60,7 +60,6 @@ li > a{
 .navbar-right{
     width: 39%;
     text-align: right;
-    
 }
 
 .title-button-row{
@@ -72,10 +71,32 @@ li > a{
     padding: 13px 25px;
     font-size: 13px;
 }
+
+.grey-section{
+    background-color: #D3D3D3;
+    height: 20vh;
+    text-align: center;
+}
+.texts-grey-section{
+    width: 50%;
+    line-height: 5vh;
+    padding: 5vh 0;
+    margin: 0 auto;
+}
+.texts-grey-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1.5px;
+}
+.texts-grey-section *{
+    font-weight: bold;
+}
+.texts-grey-section p:last-child{
+    color: #808080;
+}
 .button{
     border-radius: 6px;
     text-align: center;
-    padding: 4px 25px;
+    padding: 4px 30px;
     border: 1px solid white;
     text-decoration: none;
     color: white;
